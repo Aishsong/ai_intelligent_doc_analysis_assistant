@@ -1,0 +1,38 @@
+# 文档解析及相关工具
+unstructured
+unstructured-inference
+
+# 多轮对话与大模型调用
+langchain
+litellm==0.1.3
+langchain-community
+
+# 前端交互
+streamlit
+
+# 向量数据库及本地检索加速
+chromadb
+faiss-cpu
+
+# 数据处理
+pandas
+numpy
+
+# PDF 解析（pdfminer 使用指定的老版本以兼容 unstructured）
+pdfminer.six
+
+# PDF 转图像，用于 unstructured_inference
+pdf2image
+
+# DOCX 解析支持（用于解析 Word 文档）
+python-docx
+
+# 用于 HuggingFaceEmbeddings（大部分模型需要）
+transformers
+torch
+
+# 处理 HEIF 格式图片
+pi-heif
+
+# 替代 pycrypto 依赖（解决 Windows 下 pycrypto 编译问题）
+pycryptodome
