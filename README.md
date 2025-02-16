@@ -21,8 +21,8 @@
 1. **克隆项目代码**
 
    ```bash
-   git clone https://github.com/your_username/smart_doc_analysis.git
-   cd smart_doc_analysis
+   git clone https://github.com/Aishsong/ai_intelligent_doc_analysis_assistant
+   cd ai_intelligent_doc_analysis_assistant
    ```
 
 2. **创建虚拟环境**
